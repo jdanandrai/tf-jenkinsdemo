@@ -1,6 +1,8 @@
 pipeline {
     
-    agent any
+    agent{
+        label "${label}"
+    }
     
     stages{
         stage("inittilize terraform"){
