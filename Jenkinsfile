@@ -10,7 +10,7 @@ pipeline {
         }
         stage("checking terraform plan"){
             steps{
-                sh "terraform plan --auto-approve"
+                sh "terraform plan"
             }
         }
         stage("format terraform file"){
