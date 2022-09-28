@@ -17,5 +17,5 @@ default = "darulo"
  }
 
  variable "sname" {
-    
+    default =   "arizona "
  }
