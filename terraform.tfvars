@@ -1,1 +1,1 @@
-sname = "Arizona"
+sname = "Aphetra"
