@@ -1,7 +1,7 @@
 pipeline {
     
     agent{
-        label "${label}"
+        label "jenkins"
     }
     
     stages{
